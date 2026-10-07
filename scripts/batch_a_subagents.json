@@ -1,0 +1,92 @@
+[
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q159",
+    "Prompt": "Question ID: Q159\nRun ID: RUN-BASE-Q159-WEB\nTool Mode: web_assisted\nConsumer Question: \"Where can I buy a reliable used Dodge with a warranty near Rawlins, Wyoming?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q160",
+    "Prompt": "Question ID: Q160\nRun ID: RUN-BASE-Q160-WEB\nTool Mode: web_assisted\nConsumer Question: \"Where can I get Dodge warranty service and recall repairs near Rawlins, Wyoming?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q161",
+    "Prompt": "Question ID: Q161\nRun ID: RUN-BASE-Q161-WEB\nTool Mode: web_assisted\nConsumer Question: \"What are the best Jeep dealerships in or near Rawlins, Wyoming, and why?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q163",
+    "Prompt": "Question ID: Q163\nRun ID: RUN-BASE-Q163-WEB\nTool Mode: web_assisted\nConsumer Question: \"Where can I buy a reliable used Jeep with a warranty near Rawlins, Wyoming?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q169",
+    "Prompt": "Question ID: Q169\nRun ID: RUN-BASE-Q169-WEB\nTool Mode: web_assisted\nConsumer Question: \"What are the best used car dealerships in Rawlins, Wyoming?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q170",
+    "Prompt": "Question ID: Q170\nRun ID: RUN-BASE-Q170-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which car dealerships near Rawlins, Wyoming, will give me a written out-the-door price including dealer fees?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q171",
+    "Prompt": "Question ID: Q171\nRun ID: RUN-BASE-Q171-WEB\nTool Mode: web_assisted\nConsumer Question: \"Where can I buy a used four-wheel-drive truck under $25,000 near Rawlins, Wyoming?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q172",
+    "Prompt": "Question ID: Q172\nRun ID: RUN-BASE-Q172-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which dealerships near Rawlins, Wyoming, will buy my car without requiring me to buy another one?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q173",
+    "Prompt": "Question ID: Q173\nRun ID: RUN-BASE-Q173-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which SUVs are suitable for Wyoming winters, and where can I compare them at dealerships in Wyoming?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q174",
+    "Prompt": "Question ID: Q174\nRun ID: RUN-BASE-Q174-WEB\nTool Mode: web_assisted\nConsumer Question: \"Where in Wyoming can I compare Ford, Ram, Chevrolet, and GMC trucks for towing a horse trailer?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q175",
+    "Prompt": "Question ID: Q175\nRun ID: RUN-BASE-Q175-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which dealerships in Wyoming sell commercial work trucks with service bodies or flatbeds?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q176",
+    "Prompt": "Question ID: Q176\nRun ID: RUN-BASE-Q176-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which Wyoming car dealerships let me buy online and have the vehicle delivered?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q177",
+    "Prompt": "Question ID: Q177\nRun ID: RUN-BASE-Q177-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which Wyoming dealerships help first-time car buyers understand their financing options?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q178",
+    "Prompt": "Question ID: Q178\nRun ID: RUN-BASE-Q178-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which Wyoming dealerships sell inspected used cars with clearly explained warranty coverage?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  },
+  {
+    "TypeName": "audit_respondent",
+    "Role": "Automotive Respondent Q179",
+    "Prompt": "Question ID: Q179\nRun ID: RUN-BASE-Q179-WEB\nTool Mode: web_assisted\nConsumer Question: \"Which Wyoming dealer groups have service locations in several cities, and what warranty work can each location handle?\"\n\nInstructions:\nPlease follow your neutral respondent protocol. Conduct web research using search_web or read_url_content to answer the consumer question thoroughly and objectively for an ordinary shopper in Wyoming.\nDistinguish local dealerships from regional alternatives.\nReturn your full consumer answer and structured record in the exact JSON format specified in your protocol.\nSend the final JSON payload back to the controller via send_message.",
+    "Model": "inherit"
+  }
+]

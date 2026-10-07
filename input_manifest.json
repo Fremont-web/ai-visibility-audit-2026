@@ -1,0 +1,31 @@
+{
+  "sourcePanel": "October 6\u20137, 2026 fixed consumer-question bank",
+  "primary": 180,
+  "supplemental": 14,
+  "repeat": 36,
+  "cityOemPairs": 35,
+  "cities": [
+    "Casper",
+    "Cody",
+    "Lander",
+    "Powell",
+    "Rawlins",
+    "Riverton",
+    "Rock Springs",
+    "Sheridan"
+  ],
+  "files": {
+    "consumer_questions.csv": {
+      "sha256": "86d069649f70c6fd9b10b3119c45e01f0d566e4ff4a675c0090dae27067f2e68",
+      "bytes": 23964
+    },
+    "repeat_questions.csv": {
+      "sha256": "d5b3d36aaf7b934f1ca67fcf60d63acd41e661e9476e5ad1d37e8dbbb0e83af1",
+      "bytes": 4378
+    },
+    "neutral_respondent_protocol.txt": {
+      "sha256": "5fbdd291e06880ad319e635f0abb2d16e5c519ba80f9fd898d66fb741f01789c",
+      "bytes": 2937
+    }
+  }
+}

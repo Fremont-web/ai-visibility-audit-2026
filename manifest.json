@@ -1,0 +1,42 @@
+{
+  "audit_metadata": {
+    "title": "Antigravity AI Dealership Visibility Audit",
+    "target_entity": "Fremont Motor Companies",
+    "audit_date": "2026-10-07",
+    "controller_environment": "Antigravity IDE / PowerShell Windows",
+    "protocol": "neutral_respondent_protocol.txt",
+    "total_scheduled_observations": 230,
+    "total_completed_observations": 230,
+    "total_hashes_verified": 230
+  },
+  "model_inventory": {
+    "tested_model_label": "Gemini 3.8 Flash (High)",
+    "exposed_version_id": "gemini-3.8-flash-thinking-high",
+    "context_isolation": "Fresh subagent context per observation; zero target brand hints or prior results",
+    "tool_mode_tested": "web_assisted (Google Search / Read URL)",
+    "model_only_mode_status": "Marked unsupported due to unverified runtime tool suppression in IDE subagents"
+  },
+  "banks": {
+    "primary_questions": 180,
+    "supplemental_questions": 14,
+    "repeat_questions": 36,
+    "cities_covered": [
+      "Lander",
+      "Riverton",
+      "Cody",
+      "Powell",
+      "Sheridan",
+      "Casper",
+      "Rock Springs",
+      "Rawlins"
+    ],
+    "statewide_scope": "Wyoming"
+  },
+  "key_metrics_summary": {
+    "primary_recommendation_coverage": "99.44% (179/180)",
+    "primary_recommendation_sov": "34.1% (179/525)",
+    "primary_cited_url_share": "33.02% (320/969)",
+    "repeat_coverage_agreement": "35/36 (97.22%)",
+    "repeat_jaccard_similarity": 0.609
+  }
+}

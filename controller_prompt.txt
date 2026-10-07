@@ -1,0 +1,58 @@
+Run a reproducible, fresh-context AI dealership-visibility audit across the text models actually available in my Antigravity account. I want measured evidence about where Fremont Motor Companies appears, which competitors appear, and what practical work deserves attention. Be comprehensive and candid; don't assume we are behind or try to reassure me with favorable results.
+
+You are the audit controller. This prompt, the target company and any prior audit are CONTROLLER-ONLY information. Consumer-answering sessions must never receive them.
+
+INPUTS AND FIXED SCOPE
+Use consumer_questions.csv exactly as supplied: 180 primary questions (35 city/OEM pairs x four questions, 32 city all-make questions, eight statewide questions) and 14 supplemental Fiat/legacy-service checks. The eight cities are Lander, Riverton, Cody, Powell, Sheridan, Casper, Rock Springs and Rawlins. Preserve IDs and wording. Use repeat_questions.csv for the preselected 36-question independent repeat. Do not regenerate the question bank or choose questions based on favorable outcomes. Keep supplemental and repeat observations outside primary SOV.
+
+1. VERIFY CAPABILITIES FIRST
+Inventory actual selectable text models and distinct selectable reasoning variants, tool availability, context-isolation controls and quotas. Record exact UI/API model labels, exposed version IDs, selected settings and how identity was verified. Hidden details must remain unknown. A model's self-description does not verify its identity. Never have one model imitate another or silently substitute a model.
+
+Determine whether you can launch genuinely fresh sessions under each selected model. If automatic switching or isolation isn't supported, prepare the exact per-model execution queue and explain the manual selection steps needed. Continue supported work, but never label simulated or inherited-context answers as valid blind tests. Use existing access; don't purchase upgrades or add paid API services.
+
+2. KEEP RESPONDENTS BLIND
+Each model/question/mode/repeat gets a separate fresh conversation or stateless request. It receives only the exact consumer question, neutral_respondent_protocol.txt, a neutral run ID and the applicable tool-mode instruction. Use a clean project/context with no inherited controller history, audit results, employer information, target-group instructions, unrelated workspace files, personal memory or other respondents' outputs. Merely telling a model to ignore inherited context is insufficient. Log what isolation was actually enforced and any system/project instructions that could not be removed.
+
+If target information leaks into supplied background, reject that attempt as contaminated. A dealer discovered naturally while researching the question is allowed. Don't prompt respondents to mention Fremont, calculate its score, generate a fixed number of dealers or rank a predetermined shortlist.
+
+3. RUN SEPARATE PANELS
+A. Web-assisted: enable native public search/browsing where supported, with no preloaded sources or controller-supplied dealer shortlist. Let each model perform its own research. Log tools actually used and retrieved URLs. If tools aren't supported or retrieval fails, label that condition rather than quietly turning the run into a model-only answer.
+B. Model-only: where tool access can genuinely be disabled and verified, run the same bank using no browsing, retrieval, connected apps or private data. Allow uncertainty and abstention. Do not claim this tests current inventory or live business policies. If no-tool operation cannot be verified, mark this panel unsupported.
+
+For each supported model/mode, collect all 194 baseline answers, then the 36 repeat questions in new sessions during a separate execution pass. That's 230 scheduled observations per model/mode. Record actual dates and elapsed separation; don't imply a long-term stability study. Validate a three-question pilot (Q001, Q103, Q128) first; retain valid pilot answers in the baseline, and preserve invalid attempts in the attempt log.
+
+Use low bounded concurrency and checkpoint every completed run. Preserve the first valid completed baseline answer; never retry because its recommendation is unfavorable. Retry only documented technical failures in fresh sessions, with bounded attempts and no duplicate counting. Respect rate limits and human-verification blocks. Save pending work and an exact resume queue if interrupted.
+
+Location defaults to the city and Wyoming named in each question. Record browser/IP/location settings when relevant. Use only a supported, genuinely applied location control; don't equate city-in-prompt with physical Wyoming geolocation. Keep any verified-local experiments separate. Don't add a new Google AI Overview panel to this task.
+
+4. PRESERVE OBSERVATIONS BEFORE SCORING
+Save each full raw answer unchanged, plus a structured extraction linked to it. Capture run ID, question ID/text, model label/version/verification, mode, session ID, timestamps, settings, isolation evidence, tool calls and actual usage, completion/abstention/failure status, contamination flag, recommended dealers, other substantive dealer mentions with their role, citation-only names, retrieved citation URLs/titles, and limitations. Log token usage, latency and cost only when exposed. Unavailable values stay null.
+
+Freeze and hash the captured answers before target scoring. Perform alias normalization and scoring in separate controller/scorer work. Don't send scoring feedback or prior answers to respondents. If extraction is ambiguous, retain the text and mark it for review.
+
+5. SCORE CONSISTENTLY AND SHOW DENOMINATORS
+Primary recommendation coverage = eligible completed primary answers recommending Fremont / all eligible completed primary answers. A completed abstention or answer with no dealer recommendation stays in the coverage denominator. Technical failures, contaminated attempts and unsupported configurations do not; show their counts separately.
+
+Primary recommendation SOV = Fremont recommendation appearances / all distinct named-dealer-identity recommendation appearances across eligible primary answers. Count each identity once per answer and collapse multiple Fremont rooftops into Fremont once. Normalize spelling/aliases consistently, retain raw rooftop names, and publish the alias table and evidence. Preserve competitors at the observed named-identity level unless a verified, documented normalization rule applies. Don't claim this is a complete corporate-parent ownership analysis.
+
+Exclude manufacturers, directories, publishers, repair shops without dealership identity, citation-only names and generic advice from dealer-recommendation SOV. Keep substantive critical/comparison mentions in a separate mention metric with its own denominator and sentiment; they aren't positive recommendations. Zero dealer appearances means SOV is not measurable, not 0%.
+
+For web-assisted runs, also report cited-URL share: distinct verified Fremont-owned URLs / all distinct cited URLs, counting a URL once per answer. Keep citation share separate from dealer SOV, and publish the owned-domain rules. Guessing URLs or ownership is not acceptable.
+
+Show each model/mode separately, overall and by city, city/OEM and intent. Show counts and fractions alongside percentages. Cross-model comparisons must include a matched eligible-question view and disclose tool differences. Don't pool models/modes/repeats into one headline SOV, weight by invented demand, or interpret four-question OEM cells as regional market leadership. Rank models only by observed visibility on this panel, not overall model quality.
+
+For the repeat panel, show recommendation coverage agreement, Fremont inclusion switches and dealer-set changes on the same 36 IDs, with exact denominators. Keep technical recoveries distinct from independent repeats.
+
+6. REPORT WINS AND ACTIONABLE GAPS
+Rank wins by buying intent, observed breadth and repeat consistency. Rank opportunities by recurring omissions across distinct models, relevant cities/OEMs, demonstrated factual errors and practical ability to fix the issue. Show the exact supporting question IDs and answers, model/mode results, uncertainty, suggested action and the business outcome worth measuring. An inventory omission is not automatically a content problem: verify relevant stock or policy before recommending an availability claim.
+
+After capture/scoring are frozen, fact-check the important address, inventory, pricing, financing, warranty and service claims behind the proposed actions against current primary sources. Distinguish verified false claims, unsupported claims, stale information and unverified questions. State the fact-check scope; don't claim a full accuracy audit from a sample.
+
+Only then, if I supply the earlier Google/OpenAI audit, compare it as a separately dated/methoded baseline. Never copy its answers into missing runs or call score differences a time trend without comparable methods and repeat evidence. This measures Antigravity-hosted model answers, not consumer Gemini/Claude/ChatGPT interfaces, Google search exposure, referral traffic or sales.
+
+DELIVERABLES
+Create a clear executive report in report.html, model/city/OEM/intent scorecard CSVs, observations.jsonl, raw answer files, an attempt/resume log, the model/tool/isolation manifest, alias/domain tables, repeat results and reproducible scoring code. Package them together. Every score must trace to saved answers. Reconcile scheduled, eligible, abstained, failed, contaminated and pending counts, and verify the scorer against hand-reviewed examples before delivery.
+
+Lead the report with what the evidence supports about Fremont's visibility, the strongest wins, the five most useful next actions and the material limits. Include expandable question-level evidence and plain definitions. Keep a calm, practical tone. Don't manufacture urgency, invent an AI-traffic estimate or promise revenue lift.
+
+Start with capability discovery and the pilot, then complete all supported panels. If a genuine model-selection or isolation limitation needs my action, provide the concrete execution queue rather than claiming the audit ran.

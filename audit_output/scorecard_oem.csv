@@ -1,0 +1,12 @@
+oem,eligible_questions,fremont_recommendations,recommendation_coverage_pct,recommendation_coverage_fraction,total_dealer_appearances,fremont_dealer_appearances,recommendation_sov_pct,recommendation_sov_fraction,total_cited_urls,fremont_cited_urls,cited_url_share_pct,cited_url_share_fraction
+All makes,40,40,100.0,40/40,199,40,20.1,40/199,323,61,18.89,61/323
+Chevrolet,4,4,100.0,4/4,7,4,57.14,4/7,8,4,50.0,4/8
+Chrysler,24,24,100.0,24/24,54,24,44.44,24/54,114,51,44.74,51/114
+Dodge,24,24,100.0,24/24,56,24,42.86,24/56,126,52,41.27,52/126
+Ford,20,20,100.0,20/20,45,20,44.44,20/45,75,23,30.67,23/75
+GMC,4,4,100.0,4/4,7,4,57.14,4/7,8,4,50.0,4/8
+Honda,4,3,75.0,3/4,10,3,30.0,3/10,14,4,28.57,4/14
+Jeep,24,24,100.0,24/24,56,24,42.86,24/56,128,58,45.31,58/128
+Ram,24,24,100.0,24/24,56,24,42.86,24/56,123,57,46.34,57/123
+Toyota,8,8,100.0,8/8,18,8,44.44,8/18,25,4,16.0,4/25
+Volkswagen,4,4,100.0,4/4,17,4,23.53,4/17,25,2,8.0,2/25

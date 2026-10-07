@@ -1,0 +1,10 @@
+city,eligible_questions,fremont_recommendations,recommendation_coverage_pct,recommendation_coverage_fraction,total_dealer_appearances,fremont_dealer_appearances,recommendation_sov_pct,recommendation_sov_fraction,total_cited_urls,fremont_cited_urls,cited_url_share_pct,cited_url_share_fraction
+Casper,28,27,96.43,27/28,100,27,27.0,27/100,186,43,23.12,43/186
+Cody,24,24,100.0,24/24,56,24,42.86,24/56,136,52,38.24,52/136
+Lander,28,28,100.0,28/28,34,28,82.35,28/34,57,27,47.37,27/57
+Powell,24,24,100.0,24/24,61,24,39.34,24/61,137,50,36.5,50/137
+Rawlins,20,20,100.0,20/20,62,20,32.26,20/62,125,59,47.2,59/125
+Riverton,16,16,100.0,16/16,28,16,57.14,16/28,32,16,50.0,16/32
+Rock Springs,20,20,100.0,20/20,69,20,28.99,20/69,114,44,38.6,44/114
+Sheridan,12,12,100.0,12/12,47,12,25.53,12/47,68,17,25.0,17/68
+Wyoming,8,8,100.0,8/8,68,8,11.76,8/68,114,12,10.53,12/114
